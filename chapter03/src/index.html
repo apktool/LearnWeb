@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>Hyperlinks</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<div>
+    <h1>列表</h1>
+    <p><strong>无序列表</strong></p>
+    <ul>
+        <li>豆浆</li>
+        <li>油条</li>
+        <li>豆汁</li>
+        <li>焦圈</li>
+    </ul>
+</div>
+<div>
+    <p><strong>有序列表</strong></p>
+    <ol>
+        <li>沿这条路
+            <mark>走到头</mark>
+        </li>
+        <li>右转</li>
+        <li>直行穿过第一个十字路口</li>
+        <li>在第三个十字路口处左转</li>
+        <li>继续走 <strong>300</strong> 米，<span>学校</span>就在你的<em>右手边</em></li>
+    </ol>
+</div>
+<div>
+    <h1 id="h1id">链接</h1>
+    <!-- 内联链接 -->
+    我创建了一个<a href="https://www.mozilla.org/zh-CN/" target="_blank">Mozilla 主页</a>的链接。
+
+    <!-- 块级链接 -->
+    <a href="https://developer.mozilla.org/zh-CN/" target="_blank">
+        <h1>MDN Web 文档</h1>
+    </a>
+    <p>自从 2005 年起，就开始记载包括 CSS、HTML、JavaScript 等网络技术。</p>
+
+    <!-- 图片链接 -->
+    <a href="https://developer.mozilla.org/zh-CN/" target="_blank">
+        <img width="100px" height="200px" src="images/twitter.svg" alt="MDN Web 文档主页"/>
+    </a>
+
+    <!-- 内部跳转 -->
+    <a href="#h1id">Go H1</a>
+
+    <!-- 下载图片 -->
+    <a href="images/twitter.svg" download="twitter.svg">下载图片</a>
+</div>
+<div>
+    <a href="mailto:nowhere@mozilla.org">向 nowhere 发邮件</a>
+</div>
+</body>
+</html>
