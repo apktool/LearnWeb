@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+</head>
+<body>
+
+<h1>Mozilla is cool</h1>
+<video src="videos/rabbit320.webm" controls>
+    <p>你的浏览器不支持 HTML5 视频。可点击<a href="videos/rabbit320.mp4">此链接</a>观看</p>
+</video>
+
+<video controls poster="images/poster.png">
+    <source src="videos/rabbit320.mp4" , type="video/mp4">
+    <source src="videos/rabbit320.webm" , type="video/webm">
+    <p>
+        你的浏览器不支持 HTML5 视频。可点击<a href="videos/rabbit320.mp4">此链接</a>观看
+    </p>
+</video>
+
+<video controls width="300" height="300" autoplay loop muted>
+    <source src="videos/rabbit320.webm" , type="video/webm">
+    <source src="videos/rabbit320.mp4" , type="video/mp4">
+    <track kind="subtitles" src="videos/subtitles_en.vtt" srclang="en"/>
+    <p>
+        你的浏览器不支持 HTML5 视频。可点击<a href="videos/rabbit320.mp4">此链接</a>观看
+    </p>
+</video>
+
+</body>
+</html>
