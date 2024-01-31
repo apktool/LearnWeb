@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+</head>
+<body>
+<iframe
+        src="https://www.bilibili.com/video/BV1uZ4y1n7cy"
+        width="80%"
+        height="600"
+        sandbox>
+    <p>
+        <a href="https://developer.mozilla.org/zh-CN/docs/Glossary">
+            Fallback link for browsers that don't support iframes
+        </a>
+    </p>
+</iframe>
+
+<embed type="text/html" src="resources/embed.html" widith="500" height="300"/>
+
+<object
+        data="resources/mypdf.pdf"
+        type="application/pdf"
+        width="900"
+        height="400"
+        typemustmatch>
+    <p>
+        You don't have a PDF plugin, but you can
+        <a href="resources/mypdf.pdf">download the PDF file.</a>
+    </p>
+</object>
+</body>
+</html>
