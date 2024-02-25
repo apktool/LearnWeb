@@ -1,0 +1,41 @@
+.block {
+    margin: 30px;
+    padding: 20px;
+}
+
+.block-a {
+    border: blue solid 2px;
+}
+
+.first {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.block-b {
+    border: red solid;
+}
+
+-- first-child 伪类选择器
+-- first-line  伪元素选择器
+article p:first-child::first-line {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.block-c {
+    border: green solid;
+}
+
+.box::before {
+    content: "This should show before the other content. ";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    border: 1px solid black;
+}
+
+.box::after {
+    content: " ➥";
+}
