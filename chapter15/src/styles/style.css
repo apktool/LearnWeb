@@ -1,0 +1,49 @@
+.block-a {
+    margin: 30px;
+    padding: 20px;
+    border: #363636 solid;
+}
+
+.block-a li[class] {
+    font-size: 200%;
+}
+
+.block-a li[class="a"] {
+    background-color: yellow;
+}
+
+.block-a li[class~="a"] {
+    color: red;
+}
+
+.block-b {
+    margin: 30px;
+    padding: 20px;
+    border: #242424 solid;
+}
+
+.block-b li[class^="a"] {
+    font-size: 200%;
+}
+
+.block-b li[class$="a"] {
+    background-color: green;
+}
+
+.block-b li[class*="a"] {
+    color: blue;
+}
+
+.block-c {
+    margin: 30px;
+    padding: 20px;
+    border: #666666 solid;
+}
+
+.block-c li[class^="a"] {
+    background-color: yellow;
+}
+
+.block-c li[class^="a" i] {
+    color: red;
+}
