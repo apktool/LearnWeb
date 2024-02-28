@@ -1,0 +1,32 @@
+
+.block {
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+/* 后代选择器 */
+.box p {
+    color: red;
+}
+
+/* 子代关系选择器 */
+ul > li {
+    border-top: 5px solid blue;
+}
+
+/* 邻接兄弟 */
+h1 + p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
+
+/* 通用兄弟 */
+h2 ~ p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
